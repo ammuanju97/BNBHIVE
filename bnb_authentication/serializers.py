@@ -4,4 +4,4 @@ from .models import UserRegistration
 class RegisterMobileSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserRegistration
-        fields = ['phone', 'otp']
+        fields = ['phone']
